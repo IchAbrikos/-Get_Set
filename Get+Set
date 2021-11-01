@@ -1,0 +1,38 @@
+class Point
+{
+private:
+	int x, y;
+
+public:
+
+	Point(int valueX, int valueY)
+	{
+		x = valueX;
+		y = valueY;
+	}
+
+	int GetY()
+	{
+		return y;
+	}
+
+	void SetY(int valueY)
+	{
+		y = valueY;
+	}
+
+	int GetX()
+	{
+		return x;
+	}
+
+	void SetX(int valueX)
+	{
+		x = valueX;
+	}
+
+	void Print()
+	{
+		cout << "X = " << x << "\nY = " << y << endl << endl;
+	}
+};
